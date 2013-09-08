@@ -10,7 +10,4 @@ background:black;
 <h2><a href='countdown.php'>1. Таймер обратного отсчет</a></h2>
 <h2><a href='popup.php'>2. Всплывающее окно</a></h2>
 <h2><a href='pagegen.php'>3. Конструктор страниц</a></h2>
-<script>
-alert("Сервер временно не работает");
-</script>
 <?php include 'footer.html' ?>
