@@ -95,19 +95,17 @@ font-size:15px;
 #mainPageGen{
     background-color:#cccccc;
     border-top:2px solid black;
-    height:100%;
 }
 #leftPageGen{
     background-color:#599fcf;
     border:1px solid black;
-    height:100%;
-    width:100px;
-    float:left;
+    width:300px;
+    height:150px;
 }
 #rightPageGen{
     background-color:#c0402a;
     border:1px solid black;
-    height:100%;
-    width:100px;
+    width:300px;
+    height:150px;
     float:right;
 }

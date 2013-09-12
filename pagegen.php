@@ -13,11 +13,14 @@ head();
 
 <script>
 var mainJS = document.getElementById('mainPageGen');
-var leftJS = document.getElementById('leftPageGen');
-var rightJS = document.getElementById('rightPageGen');
 mainJS.style.height = window.innerHeight+'px';
-leftJS.style.height = window.innerHeight+'px';
-rightJS.style.height = window.innerHeight+'px';
+</script>
+
+<script>
+$("#leftPageGen").draggable();
+$("#leftPageGen").resizable();
+$("#rightPageGen").draggable();
+$("#rightPageGen").resizable();
 </script>
 
 <script>
